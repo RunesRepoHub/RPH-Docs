@@ -59,7 +59,10 @@ nav:
         - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
     - Internt Docs:
       - Our Proxmox:
-        - 'Our Repository': 'proxmox/our-repository.md'  
+        - 'Our Repository': 'proxmox/our-repository.md'
+    - Policies Docs:
+      - Our Policies:
+        - 'Password Policy': 'policy/pw-policy.md'  
 theme:
   icon:
       logo: fontawesome/brands/gitkraken
