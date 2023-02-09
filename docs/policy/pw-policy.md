@@ -1,10 +1,10 @@
 # Password Politik.
 
-*Vores Password Politik*
+*Vores Password Politik.*
 
-*Dette påvirker alle ansatte*
+*Dette påvirker alle ansatte.*
 
-*Hvis dette ikke er opfyldt vil der blive lavet undervisning for at bedre sikre logins*
+*Hvis dette ikke er opfyldt vil der blive lavet undervisning for at bedre sikre logins.*
 
 ??? warning "Bruger password/brugernavn"
     ## Bruger password/brugernavn:
