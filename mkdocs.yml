@@ -1,0 +1,180 @@
+site_name: RP-Helpdesk
+site_url: https://rp-helpdesk.com/
+repo_name: Github/Rune004
+repo_url: https://github.com/rune004?tab=repositories
+edit_uri: https://github.com/rune004/mkdocs/edit/main/docs/
+use_directory_urls: false
+nav:
+    - Introduction:
+      - Introduction To RPH:
+        - Welcome To RPH: 'index.md'
+        - About RPH: 'about.md'
+      - What is?: 
+        - What is Ansible?: 'ansible/ansible.md'
+        - What is Proxmox?: 'proxmox/proxmox.md'
+        - What is Docker?: 'docker/docker.md'
+        - What is Portainer?: 'portainer/portainer.md'
+        - What is Unraid?: 'unraid/unraid.md'
+      - Our Software:
+        - 'Windows Auto Installer': 'software/windows-auto-installer.md' 
+    - Documentation:
+      - Ansible Documentation:
+        - 'What is Ansible?': 'ansible/ansible.md'
+        - Getting Started With Ansible: 
+          - 'Setup/Install Ansible': 'ansible/ansible-setup.md'
+          - 'Configure a Ansible playbook': 'ansible/ansible-playbook.md'
+          - 'Use a Ansible-playbook': 'ansible/ansible-use.md'
+      - Proxmox Documentation:
+        - 'What is Proxmox?': 'proxmox/proxmox.md'
+        - 'Our Repository': 'proxmox/our-repository.md'
+        - 'Proxmox Errors': 'proxmox/proxmox-errors.md'
+      - Docker Documentation:
+        - 'What is Docker?': 'docker/docker.md'
+        - 'Setup Docker': 'portainer/portainer-setup.html#install-docker-ce'
+        - Portainer:
+          - 'What is Portainer?': 'portainer/portainer.md'
+          - 'Setup Portainer': 'portainer/portainer-setup.md'
+          - 'Custom Docker-Compose': 'docker/docker-customcompose.md'
+      - Debian Documentation:
+        - 'Tailscale VPN': 'debian/tailscale.md'
+        - 'Starship': 'debian/starship.md'
+      - Unraid Documentation:
+        - 'What is Unraid': 'unraid/unraid.md'
+        - Unraid Getting Started:
+          - 'Cloudflare Tunnel': 'unraid/unraid-cloudflared.md' 
+          - 'Nginx Proxy Manager': 'unraid/nginx-proxy-manager.md' 
+    - Blog:
+      - 'Blog Overview': 'blog/blog.md'
+      - Servers: 
+        - 'Power Efficient Home Server': 'blog/power-efficient-home-server.md'
+      - Configure:
+        - 'Setup Local Internet Security': 'blog/setup-local-internet-security.md'
+    - Software:
+      - Our Software:
+        - 'Windows Auto Installer': 'software/windows-auto-installer.md'
+      - Software we recommend: 
+        - 'Self-Hosted Vaultwarden': 'docker/docker-customcompose.html#vaultwarden'
+        - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
+        - 'Self-Hosted Vikunja': 'docker/docker-customcompose.html#vikunja'
+        - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard' 
+theme:
+  icon:
+      logo: fontawesome/brands/gitkraken
+      repo: fontawesome/brands/gitkraken
+      admonition:
+        note: material/notebook-edit
+        abstract: material/file-edit
+        info: material/notebook-check
+        tip: material/tooltip-check-outline
+        success: simple/riseup
+        question: octicons/question-16
+        warning: fontawesome/solid/person-military-pointing
+        failure: octicons/x-circle-16
+        danger: octicons/zap-16
+        bug: material/docker
+        example: material/monitor-edit
+        quote: octicons/quote-16
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: black
+      accent: indigo
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: black
+      accent: indigo
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: black
+      accent: indigo
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+plugins:
+  - search
+  - minify:
+      minify_html: true
+copyright: Copyright &copy; 2022 RP-Helpdesk 
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rune004
+
+
