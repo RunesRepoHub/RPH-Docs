@@ -56,7 +56,10 @@ nav:
         - 'Self-Hosted Vaultwarden': 'docker/docker-customcompose.html#vaultwarden'
         - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
         - 'Self-Hosted Vikunja': 'docker/docker-customcompose.html#vikunja'
-        - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard' 
+        - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
+    - Internt Docs:
+      - Our Proxmox:
+        - 'Our Repository': 'proxmox/our-repository.md'  
 theme:
   icon:
       logo: fontawesome/brands/gitkraken
