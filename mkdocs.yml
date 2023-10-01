@@ -18,6 +18,8 @@ nav:
       - Our Software:
         - 'Windows Auto Installer': 'software/windows-auto-installer.md' 
     - Documentation:
+      - Cloud RP-Helpdesk Documentation:
+        - 'Getting Started': 'cloud/getting-started.md'
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible/ansible.md'
         - Getting Started With Ansible: 
@@ -35,6 +37,8 @@ nav:
           - 'What is Portainer?': 'portainer/portainer.md'
           - 'Setup Portainer': 'portainer/portainer-setup.md'
           - 'Custom Docker-Compose': 'docker/docker-customcompose.md'
+        - Cloudflare:
+          - 'Cloudflared Docker Setup': 'docker/cloudflared-docker-setup.md'
       - Debian Documentation:
         - 'Tailscale VPN': 'debian/tailscale.md'
         - 'Starship': 'debian/starship.md'
@@ -57,12 +61,6 @@ nav:
         - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
         - 'Self-Hosted Vikunja': 'docker/docker-customcompose.html#vikunja'
         - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
-    - Internt Docs:
-      - Our Proxmox:
-        - 'Our Repository': 'proxmox/our-repository.md'
-    - Policies Docs:
-      - Our Policies:
-        - 'Password Policy': 'policy/pw-policy.md'  
 theme:
   icon:
       logo: fontawesome/brands/gitkraken

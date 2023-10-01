@@ -1,5 +1,6 @@
 # Starship
 
+![pic1](../img/starship2.png)
 
 ??? info "Install Starship"
     ## Setting up Tailscale on Linux
