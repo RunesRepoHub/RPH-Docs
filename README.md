@@ -1,7 +1,7 @@
 # Welcome To RP-Helpdesk Docs
 
 ---------------
-![pic](/docs/img/Logo%20(Motto)%20larger.png)
+![pic](/docs/img/Logo-(Motto)-larger.png)
 
 This is all of the files used to host rp-helpdesk.com
 
