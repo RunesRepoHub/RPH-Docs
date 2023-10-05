@@ -1,7 +1,7 @@
 # Welcome To RP-Helpdesk Docs
 
 ---------------
-![pic](https://github.com/rune004/mkdocs/blob/abd1d85cad12f700ba1d48db20e64aaaaef0869d/docs/img/Logo%20(Motto)%20larger.png)
+![pic](/docs/img/Logo%20(Motto)%20larger.png)
 
 This is all of the files used to host rp-helpdesk.com
 
