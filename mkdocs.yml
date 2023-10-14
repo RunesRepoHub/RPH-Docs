@@ -63,7 +63,7 @@ nav:
         - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
     - Programming:
       - React:
-        - 'Getting Started': 'react/Getting Started.md' 
+        - 'Getting Started': 'react/getting-started.md' 
 theme:
   icon:
       logo: fontawesome/brands/gitkraken
