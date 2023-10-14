@@ -61,6 +61,9 @@ nav:
         - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
         - 'Self-Hosted Vikunja': 'docker/docker-customcompose.html#vikunja'
         - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
+    - Programming:
+      - React:
+        - 'Getting Started': 'react/Getting Started.md' 
 theme:
   icon:
       logo: fontawesome/brands/gitkraken
