@@ -39,3 +39,4 @@
 
     Below you will find a button, clicking it will take you to our guide on how to get started with Ansible, with a laptop running Windows 10, that has the Ubuntu 22.04 VM from the Microsoft Store installed and configured as the Ansible Controller, that then controls an Proxmox Server with playbooks from the Ansible Controller.
 
+.
