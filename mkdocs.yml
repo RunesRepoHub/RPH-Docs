@@ -16,7 +16,9 @@ nav:
         - What is Portainer?: 'portainer/portainer.md'
         - What is Unraid?: 'unraid/unraid.md'
       - Our Software:
-        - 'Windows Auto Installer': 'software/windows-auto-installer.md' 
+        - 'Windows Auto Installer': 'software/windows-auto-installer.md'
+        - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/' 
+        - 'CnC-WebGUI': 'https://runesrepohub.github.io/CnC-WebGUI/'
     - Documentation:
       - Cloud RP-Helpdesk Documentation:
         - 'Getting Started': 'cloud/getting-started.md'
@@ -57,6 +59,7 @@ nav:
       - Our Software:
         - 'Windows Auto Installer': 'software/windows-auto-installer.md'
         - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/'
+        - 'CnC-WebGUI': 'https://runesrepohub.github.io/CnC-WebGUI/'
       - Software we recommend: 
         - 'Self-Hosted Vaultwarden': 'docker/docker-customcompose.html#vaultwarden'
         - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
