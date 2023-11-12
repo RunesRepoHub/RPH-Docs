@@ -56,6 +56,7 @@ nav:
     - Software:
       - Our Software:
         - 'Windows Auto Installer': 'software/windows-auto-installer.md'
+        - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/'
       - Software we recommend: 
         - 'Self-Hosted Vaultwarden': 'docker/docker-customcompose.html#vaultwarden'
         - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
