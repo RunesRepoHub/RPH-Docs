@@ -49,25 +49,11 @@ nav:
         - Unraid Getting Started:
           - 'Cloudflare Tunnel': 'unraid/unraid-cloudflared.md' 
           - 'Nginx Proxy Manager': 'unraid/nginx-proxy-manager.md' 
-    - Blog:
-      - 'Blog Overview': 'blog/blog.md'
-      - Servers: 
-        - 'Power Efficient Home Server': 'blog/power-efficient-home-server.md'
-      - Configure:
-        - 'Setup Local Internet Security': 'blog/setup-local-internet-security.md'
     - Software:
-      - Our Software:
+      - My Software:
         - 'Windows Auto Installer': 'software/windows-auto-installer.md'
         - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/'
         - 'CnC-WebGUI': 'https://runesrepohub.github.io/CnC-WebGUI/'
-      - Software we recommend: 
-        - 'Self-Hosted Vaultwarden': 'docker/docker-customcompose.html#vaultwarden'
-        - 'Self-Hosted Seafile': 'docker/docker-customcompose.html#seafile'
-        - 'Self-Hosted Vikunja': 'docker/docker-customcompose.html#vikunja'
-        - 'Self-Hosted Flamedashboard': 'docker/docker-customcompose.html#flamedashboard'
-    - Programming:
-      - React:
-        - 'Getting Started': 'react/getting-started.md' 
 theme:
   icon:
       logo: fontawesome/brands/gitkraken
