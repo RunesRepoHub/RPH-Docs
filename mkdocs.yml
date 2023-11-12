@@ -51,7 +51,7 @@ nav:
           - 'Nginx Proxy Manager': 'unraid/nginx-proxy-manager.md' 
     - Software:
       - My Software:
-        - 'Windows Auto Installer': 'software/windows-auto-installer.md'
+        - 'Windows Auto Installer': 'software/index.md'
         - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/'
         - 'CnC-WebGUI': 'https://runesrepohub.github.io/CnC-WebGUI/'
 theme:
