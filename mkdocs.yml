@@ -52,7 +52,7 @@ nav:
     - Software:
       - My Software:
         - 'Windows Auto Installer': 'software/index.md'
-        - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/YT-Plex/'
+        - 'YT Plex Auto Installer': 'https://runesrepohub.github.io/ACS/'
         - 'CnC-WebGUI': 'https://runesrepohub.github.io/CnC-WebGUI/'
 theme:
   icon:
