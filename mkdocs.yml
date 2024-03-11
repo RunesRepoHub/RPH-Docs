@@ -1,8 +1,8 @@
 site_name: RP-Helpdesk
-site_url: https://christian-rune.github.io/RPH-Docs/
-repo_name: Github/christian-rune
-repo_url: https://github.com/orgs/christian-rune/repositories
-edit_uri: https://github.com/orgs/christian-rune/RPH-Docs/edit/main/docs/
+site_url: https://RunesRepoHub.github.io/RPH-Docs/
+repo_name: Github/RunesRepoHub
+repo_url: https://github.com/orgs/RunesRepoHub/repositories
+edit_uri: https://github.com/orgs/RunesRepoHub/RPH-Docs/edit/main/docs/
 use_directory_urls: false
 nav:
     - Introduction:
