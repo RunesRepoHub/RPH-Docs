@@ -19,5 +19,3 @@ jobs:
           git checkout Dev
           git checkout -b "Backup-Dev-Branch"
           git push --set-upstream origin "Backup-Dev-Branch"
-
-
